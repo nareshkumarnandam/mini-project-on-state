@@ -60,6 +60,7 @@ const Cart = ({ products, setProducts, setQuantity, quantity }) => {
       {products.map((product) => {
         return (
           <div className="productCard" key={product.id}>
+            <img src={product.image}></img>
             <h4>{product.name}</h4>
             <p>Price: {product.price}</p>
             <button style={{border:'none', backgroundColor:'white', color:'blue', cursor:'pointer'}}
@@ -93,14 +94,14 @@ const Cart = ({ products, setProducts, setQuantity, quantity }) => {
         <div>
           <p>Total : {total}</p>
         </div>
-        <button style={{cursor:'pointer'}}
+        <button style={{cursor:'pointer', height:'40px', border:'none', borderRadius:'5px', backgroundColor:'blue', color:'white'}}
           onClick={() => {
             setProducts([]);
             setTotal(0);
             setQuantity(0);
           }}
         >
-          clear cart
+          Clear cart
         </button>
       </div>
     </div>

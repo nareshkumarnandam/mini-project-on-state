@@ -63,8 +63,15 @@
 .productCard{
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 30px;
   align-items: center;
   gap: 100px;
   text-align: left;
+}
+img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: none;
+  background-blend-mode: color-dodge;
 }
