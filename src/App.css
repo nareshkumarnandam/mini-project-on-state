@@ -75,3 +75,17 @@ img{
   background: none;
   background-blend-mode: color-dodge;
 }
+
+@media screen and (min-width: 240px) and (max-width: 900px){
+
+  .productCard{
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0px;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  font-size: 12px;
+  width: 100vw;
+}
+}
