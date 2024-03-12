@@ -80,7 +80,7 @@ img{
 
   .productCard{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 30px 0px;
   align-items: center;
   gap: 10px;
