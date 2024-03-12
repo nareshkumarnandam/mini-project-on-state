@@ -15,7 +15,7 @@ function App() {
     {
       id: 2,
       image : 'https://rukminim2.flixcart.com/image/850/1000/mobile/n/h/6/blackberry-bold-9700-original-imad296mmzwsz8jr.jpeg?q=20&crop=false',
-      name: "BlackBarry",
+      name: "BlackBerry",
       quantity: 0,
       price: 30000,
     },
